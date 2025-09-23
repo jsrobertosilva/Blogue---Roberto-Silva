@@ -1,0 +1,53 @@
+import React, { useState, useEffect } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
+import { ChevronUp } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+
+const ScrollToTop = () => {
+  const [isVisible, setIsVisible] = useState(false)
+
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 300) {
+        setIsVisible(true)
+      } else {
+        setIsVisible(false)
+      }
+    }
+
+    window.addEventListener('scroll', toggleVisibility)
+    return () => window.removeEventListener('scroll', toggleVisibility)
+  }, [])
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
+
+  return (
+    <AnimatePresence>
+      {isVisible && (
+        <motion.div
+          className="fixed bottom-8 right-4 z-40"
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 0 }}
+          transition={{ duration: 0.3 }}
+        >
+          <Button
+            onClick={scrollToTop}
+            size="sm"
+            className="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white shadow-lg"
+          >
+            <ChevronUp className="w-5 h-5" />
+          </Button>
+        </motion.div>
+      )}
+    </AnimatePresence>
+  )
+}
+
+export default ScrollToTop
+
