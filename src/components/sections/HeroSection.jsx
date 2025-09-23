@@ -28,13 +28,15 @@ const HeroSection = () => {
             animate={{ scale: 1, rotate: 0 }}
             transition={{ duration: 0.8, type: "spring" }}
           >
-            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1">
-              <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
-                <span className="text-4xl font-bold bg-gradient-to-br from-blue-500 to-purple-600 bg-clip-text text-transparent">
-                  RS
-                </span>
-              </div>
-            </div>
+            <div className="w-56 h-56 sm:w-36 sm:h-36 md:w-48 md:h-48 lg:w-56 lg:h-56 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1">
+            <img
+              src="./minha foto.jpg"
+              alt="Foto de Roberto Silva"
+              className="w-full h-full rounded-full object-cover object-[center_30%]"
+            />
+          </div>
+
+
           </motion.div>
 
           {/* Main Title */}
@@ -48,9 +50,7 @@ const HeroSection = () => {
                 Roberto Silva
               </span>
             </h1>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground mb-6">
-              Prossional do setor Fiscal
-            </h2>
+           
           </motion.div>
 
           {/* Description */}

@@ -7,13 +7,13 @@ import { BriefcaseBusiness, TextSearch, Zap, Users } from 'lucide-react'
 
 const AboutSection = () => {
   const skills = [
-    { name: 'Fechamento completo de empresas do Simples Nacional;',level: 100},
-    { name: 'Emissão e Escrituração de Notas Fiscais',level: 100},
-    { name: 'Conferência de CFOP Estaduais e Interestaduais',level: 100},
-    { name: 'Declarações fiscais',level: 100},
-    { name: 'JavaScript',level: 100},
-    { name: 'CSS/SCSS',level: 100},
-    { name: 'HTML', level: 100 },
+    { name: 'Fechamento completo de empresas do Simples Nacional;'},
+    { name: 'Emissão e Escrituração de Notas Fiscais'},
+    { name: 'Conferência de CFOP Estaduais e Interestaduais'},
+    { name: 'Declarações fiscais'},
+    { name: 'JavaScript'},
+    { name: 'CSS/SCSS'},
+    { name: 'HTML' },
     
     
   ]
@@ -55,7 +55,7 @@ const AboutSection = () => {
             Sobre <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Mim</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Contbilista apaixonado por criar experiências incríveis
+            Contabilista apaixonado por criar experiências incríveis
           </p>
         </motion.div>
 
@@ -91,13 +91,13 @@ experiência em tecnologias web (HTML, CSS e JavaScript).
                   <div key={index}>
                     <div className="flex justify-between mb-1">
                       <span className="text-sm font-medium">{skill.name}</span>
-                      <span className="text-sm text-muted-foreground">{skill.level}</span>
+                      {/* removido o nível */}
                     </div>
                     <div className="w-full bg-accent rounded-full h-2">
                       <motion.div
                         className="bg-gradient-to-r from-blue-500 to-purple-600 h-2 rounded-full"
                         initial={{ width: 0 }}
-                        whileInView={{ width: `${skill.level}%` }}
+                        whileInView={{ width: "100%" }} // sempre preenchida
                         transition={{ duration: 1, delay: index * 0.1 }}
                         viewport={{ once: true }}
                       />
