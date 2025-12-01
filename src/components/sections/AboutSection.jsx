@@ -52,10 +52,12 @@ const AboutSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-            Sobre <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Mim</span>
+            Sobre a <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">TecFis</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Contabilista apaixonado por criar experiências incríveis
+            Atualmente a maior página dedicada a manter você atualizado sobre Tecnologia Fiscal e reforma tributária, pesquisas, 
+            dicas e muito mais.
+          
           </p>
         </motion.div>
 
@@ -67,21 +69,7 @@ const AboutSection = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold mb-6">Olá! Eu sou Roberto Silva</h3>
-            <div className="space-y-4 text-muted-foreground">
-              <p>
-                Profissional do setor fiscal com forte domínio de rotinas fiscais, Excel avançado e 
-experiência em tecnologias web (HTML, CSS e JavaScript). 
-              </p>
-              <p> 
-                Sempre busco aprender novas tecnologias e melhores práticas para entregar 
-                soluções fiscais de alta qualidade.
-              </p>
-              <p>
-                Gosto de compartilhar conhecimento através de 
-                artigos técnicos e contribuir para a comunidade.
-              </p>
-            </div>
+           
 
             {/* Skills */}
             <div className="mt-8">

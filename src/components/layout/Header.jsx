@@ -60,9 +60,9 @@ const Header = ({ activeSection, setActiveSection }) => {
             </div>
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-                Roberto Silva
+                TechFis 
               </h1>
-              <p className="text-xs text-muted-foreground">Profissional do setor fiscal </p>
+              <p className="text-xs text-muted-foreground">Plataforma de conteúdos </p>
             </div>
           </motion.div>
 

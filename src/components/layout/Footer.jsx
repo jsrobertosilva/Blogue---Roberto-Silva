@@ -42,8 +42,8 @@ const Footer = () => {
                 <Code className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h3 className="text-lg font-bold">Roberto Silva</h3>
-                <p className="text-sm text-muted-foreground">Profissional do setor fiscal </p>
+                <h3 className="text-lg font-bold">Por Roberto Silva</h3>
+                <p className="text-sm text-muted-foreground">Tecnologia Fiscal e Planejamento Tributário </p>
               </div>
             </div>
             <p className="text-muted-foreground text-sm mb-4">
@@ -117,8 +117,8 @@ const Footer = () => {
           viewport={{ once: true }}
         >
           <div className="flex items-center space-x-2 text-sm text-muted-foreground mb-4 sm:mb-0">
-            <span>© {currentYear} josé Roberto da Silva. Feito com</span>
-            <Heart className="w-4 h-4 text-red-500" />
+            <span>© {currentYear} Página protegida por direitos autorais.</span>
+            <Heart className=" " />
             
           </div>
           

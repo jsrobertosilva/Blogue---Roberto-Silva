@@ -30,8 +30,8 @@ const HeroSection = () => {
           >
             <div className="w-56 h-56 sm:w-36 sm:h-36 md:w-48 md:h-48 lg:w-56 lg:h-56 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1">
             <img
-              src="./minha foto.jpg"
-              alt="Foto de Roberto Silva"
+              src="./logotechfis.png"
+              alt="Foto logo TechFis Digital"
               className="w-full h-full rounded-full object-cover object-[center_30%]"
             />
           </div>
@@ -47,7 +47,7 @@ const HeroSection = () => {
           >
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-4">
               <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                Roberto Silva
+                TechFis Digital
               </span>
             </h1>
            
@@ -60,7 +60,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Apaixonado por rotinas fiscais e tecnologia.
+            Plataforma de conteúdos focada em automação fiscal, tecnologia, artigos técnicos, notícias, guias práticos e matériais profissionais para a rotina tributária.
           </motion.p>
 
           {/* CTA Buttons */}
