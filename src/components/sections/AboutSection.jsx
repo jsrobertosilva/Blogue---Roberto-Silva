@@ -7,13 +7,13 @@ import { BriefcaseBusiness, TextSearch, Zap, Users } from 'lucide-react'
 
 const AboutSection = () => {
   const skills = [
-    { name: 'Fechamento completo de empresas do Simples Nacional;'},
-    { name: 'Emissão e Escrituração de Notas Fiscais'},
-    { name: 'Conferência de CFOP Estaduais e Interestaduais'},
-    { name: 'Declarações fiscais'},
-    { name: 'JavaScript'},
-    { name: 'CSS/SCSS'},
-    { name: 'HTML' },
+    { name: 'Atualizações sobre mudanças tributárias, reforma fiscal e ebooks;'},
+    { name: 'Notícias sobre tecnologia aplicada ao setor tributário'},
+    { name: 'Tecnologia Fiscal e Automação'},
+    { name: 'Orientações para quem trabalha com contabilidade e setor fiscal'},
+    { name: 'Tutoriais com ferramentas e scripts'},
+    { name: 'SPED ICMS/IPI, SPED Contribuições, EFD-Reinf, ECF, DCTFWeb.'},
+    { name: 'Estratégias, sustentabilidade, custos.' },
     
     
   ]
@@ -22,22 +22,22 @@ const AboutSection = () => {
     {
       icon: BriefcaseBusiness,
       title: 'Conformidade Fiscal',
-      description: 'Garanto que todas as operações estejam em conformidade com as normas tributárias e obrigações acessórias.'
+      description: ''
     },
     {
       icon: TextSearch,
-      title: 'Análise Tributária',
-      description: 'Realizo conferência de CFOP, apuração de impostos e revisão de notas fiscais para evitar inconsistências.'
+      title: 'De olho no imposto',
+      description: ''
     },
     {
       icon: Zap,
       title: 'Eficiência em Processos',
-      description: 'Otimizo rotinas fiscais e automatizo planilhas para aumentar produtividade e reduzir erros.'
+      description: ''
     },
     {
       icon: Users,
       title: 'Colaboração',
-      description: 'Trabalho bem em equipe e me comunico de forma eficaz.'
+      description: ''
     },
   ]
 
@@ -73,7 +73,7 @@ const AboutSection = () => {
 
             {/* Skills */}
             <div className="mt-8">
-              <h4 className="text-lg font-semibold mb-4">Experiência Profissional </h4>
+              <h4 className="text-lg font-semibold mb-4">Conteúdos que Você Encontra na TecFis </h4>
               <div className="space-y-3">
                 {skills.map((skill, index) => (
                   <div key={index}>
