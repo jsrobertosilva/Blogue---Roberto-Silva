@@ -71,7 +71,7 @@ const GitHubProjects = () => {
             Projetos <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">GitHub</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            Explore meus repositórios open source e projetos de desenvolvimento
+            Explore os repositórios open source e projetos de desenvolvimento da TechFis no GitHub.
           </p>
           
           <Button 

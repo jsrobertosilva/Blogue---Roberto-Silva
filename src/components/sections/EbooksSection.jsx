@@ -63,7 +63,7 @@ const EbooksSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-            Meus <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Ebooks</span>
+            Galeria de <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Ebooks</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Conhecimento aprofundado em formato digital para acelerar seu aprendizado

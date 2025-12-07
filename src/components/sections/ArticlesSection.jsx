@@ -60,7 +60,7 @@ const ArticlesSection = () => {
             Meus <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Artigos</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Compartilhando conhecimento sobre reformas tributária e desenvolvimento front-end e tecnologias modernas
+            Fique por dentro das últimas novidades em tecnologia fiscal, reforma tributária e dicas práticas para profissionais da área.
           </p>
         </motion.div>
 

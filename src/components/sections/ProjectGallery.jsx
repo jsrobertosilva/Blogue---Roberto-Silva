@@ -53,7 +53,7 @@ const ProjectGallery = () => {
             Galeria de <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Projetos</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Uma seleção dos meus melhores trabalhos e projetos desenvolvidos
+            Uma coleção dos projetos desenvolvidos pela TechFis.
           </p>
         </motion.div>
 
